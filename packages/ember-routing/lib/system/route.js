@@ -1336,6 +1336,7 @@ var Route = EmberObject.extend(ActionHandler, {
         this.render('myPost', {   // the template to render
           into: 'index',          // the template to render into
           outlet: 'detail',       // the name of the outlet in that template
+          view: 'modal',          // the name of the view
           controller: 'blogPost'  // the controller to use for the template
         });
       }
